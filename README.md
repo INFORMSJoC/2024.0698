@@ -45,4 +45,4 @@ This repository contains the code for solving the Multi-Depot Vehicle Scheduling
 
 The code depends on CPLEX to solve all LPs and MIPs. The experiments in the paper were all performed using CPLEX 22.1.
 
-All data is in the folder "dataEUC", and the source code and scripts are in "src". There are three scripts, one for each algorithm (MainMIP, MainDDD and MainBNP). Instance parameters can be directly set in these scripts. Algorithm parameters for DDD and BNP can be set in Solver_DDD and BranchAndPrice, respectively.
+All data is in the folder "dataEUC", and the source code and scripts are in "src". There are three scripts in "src/scripts", one for each algorithm (MainMIP, MainDDD and MainBNP). Instance parameters can be directly set in these scripts. Algorithm parameters for DDD and BNP can be set in "src/ddd/Solver_DDD" and src/"bnp"/BranchAndPrice, respectively.
